@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+<entity name="News" syncable="YES">
+<attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+<attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+<attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+<attribute name="skim" optional="YES" attributeType="Transformable" syncable="YES"/>
+<attribute name="believable" optional="YES" attributeType="Transformable" syncable="YES"/>
+<attribute name="doubt" optional="YES" attributeType="Transformable" syncable="YES"/>
+<attribute name="describe" optional="YES" attributeType="String" syncable="YES"/>
+<attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+
+<attribute name="index" optional="YES" attributeType="Transformable" syncable="YES"/>
+</entity>
+<elements>
+<element name="News" positionX="-18" positionY="27" width="128" height="75"/>
+</elements>
+</model>
